@@ -1,0 +1,14 @@
+{
+	"id": "alchemy",
+	"name": "Alchemy",
+	"display_name": "Alchemy",
+	"author": ["TwelfthDoc"],
+	"description": "A cosmetic mod replacing Planet cards with their alchemical symbols.",
+	"prefix": "alc",
+	"main_file": "main.lua",
+	"priority": 0,
+	"version": "1.0.0",
+	"dependencies": [
+		"malverk (>=1.1.5~)"
+	]
+}
