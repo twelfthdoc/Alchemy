@@ -25,11 +25,20 @@ AltTexture {
 	original_sheet = true
 }
 
+AltTexture {
+	key = "ArchipelagoTexture",
+	set = "Planet",
+	path = "Archipelago.png",
+	keys = { "c_rand_ap_planet" },
+	loc_txt = { name = "Reskin for Archipelago Planet Consumable" },
+}
+
 TexturePack {
 	key = "AlchemyTexture",
 	textures = {
 		"alc_PlanetTextures",
-		"alc_BlackHoleTexture"
+		"alc_BlackHoleTexture",
+		"alc_ArchipelagoTexture"
 	},
 	loc_txt = {
 		name = "Alchemy",
